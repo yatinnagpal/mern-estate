@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
+
 export default function SignOut() {
   const [formData, setFormData] = useState({})
   const [error, setError] = useState('');
